@@ -20,6 +20,9 @@ const Input = () => {
                 <EqualButton className="row-span-2" />
                 <OperandButton text="0" id="zero" className="col-span-2" height = "h-12" width = "w-24"/>
                 <OperandButton text="." id="decimal" />
+                <a href="https://github.com/PriteshThorat/Build-a-JavaScript-Calculator" target="_blank" rel="noopener noreferrer" className="col-span-4 text-center text-blue-500 underline">
+                    View Source Code
+                </a>
             </div>
     );
 };
